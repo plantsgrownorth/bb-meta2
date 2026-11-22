@@ -1,0 +1,16 @@
+{
+  "client_id": "https://plantsgrownorth.github.io/bb-meta2/.well-known/oauth-client",
+  "client_name": "AttackerCorp",
+  "client_uri": "https://evil.example.org",
+  "redirect_uris": [
+    "https://evil.example.org/cb"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
